@@ -1,0 +1,35 @@
+.neon-background {
+  background-color: white;
+  color: #fff;
+}
+
+body {
+  background-color: rgb(136, 126, 99);
+}
+
+.navbar {
+  transition: background-color 0.5s;
+}
+
+.navbar:hover {
+  background-color: #ff00ff; /* Розово-фиолетовый цвет */
+}
+
+.photo-block {
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-block:hover img {
+  transform: translateY(-100%);
+}
+
+.photo-block img {
+  transition: transform 0.5s;
+}
+
+.main-container {
+  background-color: rgb(136, 126, 99);
+  padding: 20px;
+  color: white;
+}
